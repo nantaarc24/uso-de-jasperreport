@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background: #b1eaef;
+}
+.principal{
+    margin: 0 auto;
+    width: 900px;  /* ancho */
+    border: 1px solid black;
+}
+.encabezado{
+    background: url('encabezado.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 94px; /* alto */
+}
+.menu{
+    float: left; /* div flotante al lado izquierdo*/
+    width: 180px;
+    height: 600px;
+    background: #0096d5;
+}
+.contenido{
+    width: 720px;
+    margin-left: 180px; /* espacio a la izquierda del contenido */
+    height: 600px;
+    background: #00a8ee;
+}
+.lista{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lista a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 0;
+    border-bottom: 1px solid #00a8ee;
+    background: linear-gradient(#0096d5,#0096d5,#0096d5);
+    transition: 0.5s ease-in-out;
+}
+.lista a:hover{
+    color: #f4aa09;
+    background: linear-gradient(#0096d5,#0096d5,#00a8ee);    
+}
+
+.contenedor{
+    padding: 8px;
+}
+.titulo{
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.texto{
+    color: #ffffff;
+    text-align: justify;
+}
+.tablaDatos{
+    margin: 12px auto; /* centrar tabla */
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+}
+.tablaDatos th{
+    border: 1px solid black;
+    background: #aeeef1;
+    padding: 5px;
+}
+.tablaDatos td{
+    border: 1px solid black;
+    background: #e6fbfc;
+    text-align: center;
+    padding: 5px;
+}
+.tablaFrm{
+    margin: 12px auto;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #e6fbfc;
+    padding: 20px;
+}
+
+.campotexto{
+    padding: 6px;
+    background: #f3fbfc;
+    border: 0.5px solid black;
+}
+.boton{
+    padding: 8px;
+    font-weight: bold;
+    background: #2481e4;
+    border: 1px solid #000099;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.boton:hover{
+    background: #00a8ee;
+}

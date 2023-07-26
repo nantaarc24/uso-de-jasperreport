@@ -1,0 +1,12 @@
+CREATE DATABASE BDTarea3;
+USE BDTarea3;
+
+CREATE TABLE TB_Producto(
+Codigo INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Descripcion VARCHAR(50),
+Marca VARCHAR(50),
+Precio DECIMAL(8,2),
+Stock INT
+);
+
+INSERT INTO TB_Producto VALUES(null, 'Galleta Soda','Field',0.80,100);

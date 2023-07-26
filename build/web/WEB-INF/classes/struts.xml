@@ -1,0 +1,33 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+
+<struts>
+
+    <package name="struts-ejemplo" extends="struts-default">
+        
+        <action name="index">
+            <result name="success">index.jsp</result>
+        </action>
+        
+        <action name="agregarProducto" class="edu.sise.actions.ProductoAction" method="agregarProducto">
+            <result name="success" type="redirect">mostrarProductos</result>
+            <result name="error">error.jsp</result>
+        </action>
+        
+        <action name="mostrarProductos" class="edu.sise.actions.ProductoAction" method="mostrarProductos">
+            <result name="success">listarProductos.jsp</result>
+        </action>
+        
+
+        <action name="verReporte1" class="edu.sise.actions.ReporteAction" method="verReporte1">
+            
+        </action>
+        
+        <action name="verReporte2" class="edu.sise.actions.ReporteAction" method="verReporte2">
+            
+        </action>
+    </package>
+
+</struts>

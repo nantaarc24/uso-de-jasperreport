@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/fer/java/AppTareaReportes/src/java/edu/sise/actions/ProductoAction.java</file>
+            <file>file:/E:/fer/java/AppTareaReportes/web/Reporte1.jsp</file>
+            <file>file:/E:/fer/java/AppTareaReportes/web/index.jsp</file>
+            <file>file:/E:/fer/java/AppTareaReportes/src/java/edu/sise/util/Conexion.java</file>
+            <file>file:/E:/fer/java/AppTareaReportes/build/web/agregarProducto.jsp</file>
+            <file>file:/E:/fer/java/AppTareaReportes/web/Reporte2.jsp</file>
+            <file>file:/E:/fer/java/AppTareaReportes/build/web/listarProductos.jsp</file>
+            <file>file:/E:/fer/java/AppTareaReportes/src/java/struts.xml</file>
+            <file>file:/E:/fer/java/AppTareaReportes/src/java/edu/sise/mapper/ProductoMapper.xml</file>
+            <file>file:/E:/fer/java/AppTareaReportes/src/java/edu/sise/dao/ProductoDAO.java</file>
+            <file>file:/E:/fer/java/AppTareaReportes/web/listarProductos.jsp</file>
+            <file>file:/E:/fer/java/AppTareaReportes/src/java/edu/sise/actions/ReporteAction.java</file>
+            <file>file:/E:/fer/java/AppTareaReportes/src/java/edu/sise/entity/Producto.java</file>
+            <file>file:/E:/fer/java/AppTareaReportes/web/agregarProducto.jsp</file>
+            <file>file:/E:/fer/java/AppTareaReportes/build/web/Reporte1.jsp</file>
+            <file>file:/E:/fer/java/AppTareaReportes/src/java/mybatis-config.xml</file>
+        </group>
+    </open-files>
+</project-private>
